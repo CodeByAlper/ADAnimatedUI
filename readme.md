@@ -45,7 +45,6 @@ struct ContentView: View {
     }
 }
 ```
-
 <details>
 <summary>more examples:</summary>
 
@@ -104,6 +103,27 @@ struct ContentView: View {
 }
 ```
 </details>
+
+### Crazy Text 
+``` swift
+import ADAnimatedUI
+
+struct ContentView: View {
+    @State var trigger = 0
+    
+    var body: some View {
+        VStack(spacing: 24) {
+            ADCrazyText(text: "Hello, World!", speed: 1, trigger: trigger)
+
+            Button("Restart animation") {
+                trigger += 1
+            }
+            .buttonStyle(.borderedProminent)
+        }
+        .padding()
+    }
+}
+```
 
 ## 📚 Color Presets
 
