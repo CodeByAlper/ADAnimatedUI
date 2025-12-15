@@ -1,6 +1,6 @@
 //
 //  AnimatedAngularBackground.swift
-//  ADAnimatedBackgrounds
+//  ADAnimatedUI
 //
 //  Created by Alper D on 11.12.25.
 //
