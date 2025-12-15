@@ -20,6 +20,7 @@ additional animated elements and effects.
 
 - iOS 17.0 or later
 - macOS 14.0 or later
+- watchOS 10.0 or later
 - Xcode 15 or later
 - Swift 5.9 or later
 
@@ -29,12 +30,6 @@ In Xcode:\
 **File → Add Packages →** enter the repository URL:
 
     https://github.com/CodeByAlper/ADAnimatedUI
-
-Or add to `Package.swift`:
-
-``` swift
-.package(url: "https://github.com/CodeByAlper/ADAnimatedUI", from: "1.0.0")
-```
 
 ## 🚀 Usage
 
